@@ -1,0 +1,17 @@
+{
+  "include": ["openapi/client-sdk/src/**/*.ts"],
+  "compilerOptions": {
+    /* File system */
+    "outDir": "openapi/client-sdk/dist",
+    "rootDir": "openapi/client-sdk/src",
+    "target": "es6",
+    "module": "commonjs",
+    /* Additional outputs */
+    "declaration": true,
+    "sourceMap": true,
+    /* Import */
+    "esModuleInterop": true,
+    /* Linting */
+    "strict": true
+  }
+}

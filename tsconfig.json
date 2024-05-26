@@ -1,12 +1,19 @@
 {
-  "include": ["src/**/*.ts"],
-  "exclude": ["node_modules", "dist", "build"],
+  "include": ["src/**/*.ts", "openapi/client-test.ts"],
+  "exclude": [
+    "node_modules",
+    "dist",
+    "build",
+    "openapi/client-sdk",
+    "openapi/spec"
+  ],
   "compilerOptions": {
     "module": "commonjs",
     "moduleResolution": "node",
     "target": "ES2021",
     "lib": [
-      "ES2021"
+      "ES2021",
+      "DOM" // For openapi/client-sdk/dist
       // "ESNext"
     ],
     // https://stackoverflow.com/a/54277766

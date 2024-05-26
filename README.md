@@ -1,3 +1,11 @@
-# showcase--nestjs--swagger-documentation
+# showcase--nestjs--openapi-generator-cli
 
-Swagger documentation available at http://localhost:3000/api
+```
+# Generate client
+pnpm run dev:client
+
+# Test output
+pnpm run dev
+# and in parallel
+pnpm ts-node openapi/client-test.ts
+```

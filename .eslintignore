@@ -6,3 +6,5 @@ target
 reports
 *.tsbuildinfo
 pnpm-lock.yaml
+openapi/client-sdk
+openapi/spec

@@ -404,3 +404,7 @@ report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
 # VSCode
 .vscode/*
 !.vscode/*.template.json
+
+# OpenAPI
+openapi/client-sdk
+openapi/spec
